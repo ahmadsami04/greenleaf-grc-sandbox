@@ -55,6 +55,27 @@ Assessment Limitations
 
 This is a controlled educational demonstration. It does not establish ISO 27001 certification or demonstrate compliance with all ISMS requirements. No real customer data, credentials, or production infrastructure should be used.
 
-Deployment
+## Deployment
 
-Cloud deployment instructions and the live demonstration URL will be added after deployment verification.
+The GreenLeaf Microfinance sandbox is deployed on Render's free web service.
+
+**Live Application:** https://greenleaf-grc-sandbox.onrender.com/login
+
+**Fictional Borrower API:** https://greenleaf-grc-sandbox.onrender.com/borrowers
+
+**Health Check:** https://greenleaf-grc-sandbox.onrender.com/health
+
+### Deployment Configuration
+
+- Hosting provider: Render
+- Runtime: Node.js
+- Branch: main
+- Build command: `npm ci`
+- Start command: `node server.js`
+- Instance type: Free
+
+### Verification
+
+The public login page, fictional borrower endpoint, and health-check endpoint were manually tested successfully.
+
+**Note:** The login form is a nonfunctional demonstration, and all borrower records are fictional.
