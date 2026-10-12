@@ -1,0 +1,47 @@
+GREENLEAF MICROFINANCE
+FICTIONAL ASSESSMENT AUTHORIZATION
+
+Document ID: GLM-AUTH-001
+Version: 1.0
+Assessment Period: October 12–14, 2026
+
+CLIENT:
+GreenLeaf Microfinance (Fictional Training Organization)
+
+AUTHORIZED ASSESSOR:
+Student Project Team
+
+PURPOSE:
+This document records mock authorization for an educational ISO/IEC 27001:2022 gap assessment of the GreenLeaf Microfinance demonstration environment.
+
+AUTHORIZED SYSTEMS:
+
+- Locally controlled Node.js/Express sandbox application
+- Fictional borrower-information endpoint
+- Local Docker containers and configuration files
+- Designated project repository and demonstration deployment
+
+PERMITTED ACTIVITIES:
+
+- Review application and container configurations
+- Inspect fictional application data and behavior
+- Assess security governance and access-control design
+- Document gaps, risks, and corrective recommendations
+- Conduct non-destructive tests within the defined sandbox
+
+PROHIBITED ACTIVITIES:
+
+- Testing real financial or third-party systems
+- Using actual customer or borrower information
+- Credential attacks, denial-of-service testing, or social engineering
+- Disclosing passwords, API keys, or other secrets
+
+MOCK AUTHORIZATION:
+This fictional training organization grants simulated permission to conduct the activities described above, within the defined sandbox boundaries.
+
+Client Representative: Simulation Project Sponsor
+Signature: [FICTIONAL / NOT ACTUALLY SIGNED]
+Date: October 12, 2026
+
+DISCLAIMER:
+This is a fictional authorization document created solely for an educational project. It does not constitute legal permission to assess or test any real organization or infrastructure.
