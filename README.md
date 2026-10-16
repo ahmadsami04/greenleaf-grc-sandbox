@@ -42,6 +42,8 @@ docker compose up --build -d
 
 Open "http://localhost:3001/login".
 
+**Port Configuration:** The Node.js application runs on port 3000 inside the container. Docker Compose maps port 3001 on the host computer to port 3000 in the container (`3001:3000`). Therefore, use `localhost:3000` when running Node.js directly and `localhost:3001` when running through Docker Compose.
+
 To stop the container:
 
 docker compose down
@@ -50,6 +52,10 @@ Assessment Documentation
 
 - "GreenLeaf_Assessment_Scope.pdf": One-page assessment scope, objectives, assets, boundaries, and sign-off placeholder.
 - "AUTH.txt": Fictional authorization and permitted testing activities.
+- `Policy_Inventory.pdf`: Inventory of six external security policy templates mapped to relevant ISO/IEC 27001:2022 Annex A controls.
+- `Control_Mapping.xlsx`: Mapping of all 93 Annex A controls, including policy references, evidence and gap notes, recommended actions, and implementation assessment statuses.
+
+**Assessment Status:** Implementation statuses are marked `Not Assessed` where sufficient evidence has not been collected. External policy templates are references only and do not establish that GreenLeaf has adopted or implemented those controls.
 
 Assessment Limitations
 
