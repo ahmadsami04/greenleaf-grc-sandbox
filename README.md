@@ -55,7 +55,7 @@ Assessment Documentation
 - `Policy_Inventory.pdf`: Inventory of six external security policy templates mapped to relevant ISO/IEC 27001:2022 Annex A controls.
 - `Control_Mapping.xlsx`: Mapping of all 93 Annex A controls, including policy references, evidence and gap notes, recommended actions, and implementation assessment statuses.
 
-**Assessment Status:** Implementation statuses are marked `Not Assessed` where sufficient evidence has not been collected. External policy templates are references only and do not establish that GreenLeaf has adopted or implemented those controls.
+**Assessment Status:** This fictional ISO/IEC 27001:2022 assessment classifies all 93 Annex A controls using Implemented, Partial, or Not Implemented. Classifications are based on available sandbox evidence and external reference-policy coverage. Eleven controls are classified as Partial and 82 as Not Implemented; none are verified as fully Implemented. These ratings represent a training simulation and do not establish compliance or actual security deficiencies at a real financial institution.
 
 Assessment Limitations
 
