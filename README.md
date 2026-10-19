@@ -55,6 +55,17 @@ Assessment Documentation
 - `Policy_Inventory.pdf`: Inventory of six external security policy templates mapped to relevant ISO/IEC 27001:2022 Annex A controls.
 - `Control_Mapping.xlsx`: Mapping of all 93 Annex A controls, including policy references, evidence and gap notes, recommended actions, and implementation assessment statuses.
 
+- [Risk_Register.csv](Risk_Register.csv): Risk register containing 10 distinct risk scenarios, likelihood and impact scores, risk levels, treatment decisions, and supporting evidence notes.
+- [Methodology.md](Methodology.md): Risk assessment methodology explaining the 1–5 scoring scales, risk matrix, treatments, sources, and assessment limitations.
+
+### Task 3 Risk Assessment Summary
+
+The fictional GreenLeaf assessment identifies 10 risks: 5 High and 5 Medium.
+
+Risk Score = Likelihood × Impact.
+
+The scores are educational estimates. Some risks reflect observed sandbox behavior, while others describe hypothetical scenarios involving future use with real customer information.
+
 **Assessment Status:** This fictional ISO/IEC 27001:2022 assessment classifies all 93 Annex A controls using Implemented, Partial, or Not Implemented. Classifications are based on available sandbox evidence and external reference-policy coverage. Eleven controls are classified as Partial and 82 as Not Implemented; none are verified as fully Implemented. These ratings represent a training simulation and do not establish compliance or actual security deficiencies at a real financial institution.
 
 Assessment Limitations
