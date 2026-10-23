@@ -96,3 +96,28 @@ The GreenLeaf Microfinance sandbox is deployed on Render's free web service.
 The public login page, fictional borrower endpoint, and health-check endpoint were manually tested successfully.
 
 **Note:** The login form is a nonfunctional demonstration, and all borrower records are fictional.
+
+## Task 4: ISO 27001 Gap Analysis and Remediation
+
+The fictional GreenLeaf Microfinance assessment covers all 93 ISO/IEC 27001:2022 Annex A controls.
+
+### Deliverables
+
+- [Final Gap Analysis Report](Gap_Analysis_Report_Final.pdf)
+- [Corrected Remediation Workbook](Gap_Analysis_Working.xlsx)
+- [Risk Register](Risk_Register.csv)
+- [Risk Assessment Methodology](Methodology.md)
+
+### Assessment Results
+
+| Priority     | Controls |
+| ------------ | -------: |
+| High         |        8 |
+| Medium       |        8 |
+| Low          |        0 |
+| Needs Review |       77 |
+| **Total**    |   **93** |
+
+The remediation workbook contains proposed corrective actions, responsible roles, target dates, and linked risk IDs.
+
+This assessment is an educational simulation. It does not constitute an ISO 27001 certification audit or establish actual compliance.
