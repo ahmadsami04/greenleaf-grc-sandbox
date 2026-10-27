@@ -121,3 +121,25 @@ The fictional GreenLeaf Microfinance assessment covers all 93 ISO/IEC 27001:2022
 The remediation workbook contains proposed corrective actions, responsible roles, target dates, and linked risk IDs.
 
 This assessment is an educational simulation. It does not constitute an ISO 27001 certification audit or establish actual compliance.
+
+## Task 5: Security Policies and Evidence Collection
+
+This task establishes proposed security policies and an evidence-collection checklist for the fictional GreenLeaf Microfinance environment.
+
+### Deliverables
+
+- [Access Control Policy](Access_Control_Policy.pdf)
+- [Incident Response Policy](Incident_Response_Policy.pdf)
+- [Evidence Collection Checklist](Evidence_Checklist.xlsx)
+
+### Key Improvements
+
+- Defined access-control responsibilities and least-privilege requirements.
+- Added a proposed GreenLeaf Role Matrix and quarterly access-review requirements.
+- Established incident classification, escalation, containment, recovery, and evidence-preservation procedures.
+- Mapped policy requirements to specific audit evidence, responsible roles, and collection statuses.
+- Linked the policies to remediation actions identified in Task 4.
+
+### Assessment Limitations
+
+These documents are educational drafts for a fictional environment. The policies are not formally approved, and the evidence checklist does not establish that operational controls have been implemented or verified.
