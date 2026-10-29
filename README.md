@@ -143,3 +143,56 @@ This task establishes proposed security policies and an evidence-collection chec
 ### Assessment Limitations
 
 These documents are educational drafts for a fictional environment. The policies are not formally approved, and the evidence checklist does not establish that operational controls have been implemented or verified.
+
+## Task 6: Final Project Handover
+
+### Project Overview
+
+GreenLeaf Microfinance is a fictional community lending organization used for an educational ISO/IEC 27001:2022 gap assessment.
+
+This project includes assessment scope, Annex A control mapping, a risk register, gap analysis, remediation recommendations, and draft security policies.
+
+### Executive Summary
+
+[Download Executive Summary (PDF)](Executive_Summary.pdf)
+
+### Live Demo
+
+- [GreenLeaf Sandbox Login](https://greenleaf-grc-sandbox.onrender.com/login)
+- [Application Health Check](https://greenleaf-grc-sandbox.onrender.com/health)
+- [Fictional Borrower API](https://greenleaf-grc-sandbox.onrender.com/borrowers)
+
+The login form is a nonfunctional demonstration. The borrower endpoint intentionally returns fictional public data. No real credentials or personal information should be used.
+
+### Video Walkthrough
+
+Pending recording and upload on Day 3.
+
+### Handover Checklist
+
+- [x] Assessment scope and authorization documented
+- [x] Annex A control mapping completed
+- [x] Risk register and methodology documented
+- [x] Gap analysis and remediation plan completed
+- [x] Access Control and Incident Response policies drafted
+- [x] Evidence-collection checklist prepared
+- [x] Executive summary prepared
+- [x] Live sandbox endpoints manually verified
+- [ ] Video walkthrough recorded and linked
+- [ ] Final repository build verified
+
+### Deployment and Client Handover
+
+The sandbox is hosted on Render using Node.js.
+
+To run locally:
+
+1. Install Node.js and npm.
+2. Clone this repository.
+3. Run `npm ci`.
+4. Run `npm start` if supported by the package scripts, or `node server.js`.
+5. Visit the local address printed by the server.
+
+For deployment, configure a Render web service using the repository, with build command `npm ci` and start command `node server.js`.
+
+All assessment materials are educational drafts and require organizational approval, implementation, and operational validation before real-world use.
