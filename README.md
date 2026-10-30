@@ -166,7 +166,7 @@ The login form is a nonfunctional demonstration. The borrower endpoint intention
 
 ### Video Walkthrough
 
-Pending recording and upload on Day 3.
+[Watch the GreenLeaf Project Walkthrough](https://youtu.be/ho3PgIaVNJA)
 
 ### Handover Checklist
 
@@ -178,7 +178,7 @@ Pending recording and upload on Day 3.
 - [x] Evidence-collection checklist prepared
 - [x] Executive summary prepared
 - [x] Live sandbox endpoints manually verified
-- [ ] Video walkthrough recorded and linked
+- [x] Video walkthrough recorded and linked
 - [ ] Final repository build verified
 
 ### Deployment and Client Handover
